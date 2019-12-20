@@ -1,0 +1,23 @@
+Package: LR5
+Type: Package
+Title: Create two functions
+Version: 0.1.0
+Author: Basalai Timofei
+Maintainer: basalaitimofei@gmail.com
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: FALSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    readr,
+    dplyr,
+    tidyr,
+    ggplot2,
+    maps
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 7.0.2
